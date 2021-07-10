@@ -1,0 +1,32 @@
+﻿<Window x:Class="RegUsers.UserPageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegUsers"
+        mc:Ignorable="d"
+        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        Title="" Height="450" Width="650" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+
+    <Grid Background="Green" Margin="0">
+
+        <Border MinWidth="450" Margin="10" Background="white" VerticalAlignment="Center" Padding="30" MaxWidth="800" CornerRadius="13" Grid.RowSpan="2">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray" ShadowDepth="0"></DropShadowEffect>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center" Text="Кабинет сотрудника" FontSize="30" FontWeight="Bold" Margin="0 0 0 10" />
+
+                <DataGrid x:Name="ToDoList" FontSize="16" FontWeight="Bold" Margin="0" SelectionChanged="ToDoList_SelectionChanged" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Path = Text}" IsReadOnly="False" Header="Информация" Width="225" />
+                        <DataGridCheckBoxColumn Binding="{Binding Path = IsDone, UpdateSourceTrigger = PropertyChanged}" IsReadOnly="False" Header=" Статус" Width="100" />
+                        <DataGridTextColumn Binding="{Binding Path = CreationDate}" IsReadOnly="True" Header="Дата заявки"  Width="*" />
+                    </DataGrid.Columns>
+                </DataGrid>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

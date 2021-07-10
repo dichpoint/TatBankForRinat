@@ -1,0 +1,171 @@
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\RegUsersDatebase.db
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\RegUsers.exe.config
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\RegUsers.exe
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\RegUsers.pdb
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\EntityFramework.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\MaterialDesignColors.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\Microsoft.Data.Sqlite.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\SQLitePCLRaw.core.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\System.Buffers.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\System.Data.SQLite.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\System.Memory.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\System.Numerics.Vectors.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\EntityFramework.xml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\MaterialDesignColors.pdb
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\Microsoft.Data.Sqlite.xml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\System.Buffers.xml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\System.Data.SQLite.xml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\System.Memory.xml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\System.Numerics.Vectors.xml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers.csprojAssemblyReference.cache
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\AuthWindow.g.cs
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\MainWindow.g.cs
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\UserPageWindow.g.cs
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\App.g.cs
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers_Content.g.cs
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers_MarkupCompile.cache
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers_MarkupCompile.lref
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\App.baml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\AuthWindow.baml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\MainWindow.baml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\UserPageWindow.baml
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers.g.resources
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers.Properties.Resources.resources
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers.csproj.GenerateResource.cache
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers.csproj.CoreCompileInputs.cache
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers.csproj.CopyComplete
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers.exe
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers.pdb
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\RegUsers.exe.manifest
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\bin\Release\RegUsers.application
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers.exe.manifest
+C:\Users\Huawei\Desktop\КНИТУ\предметы\1 курс\2 семестр\ТП\RegUsers\RegUsers\obj\Release\RegUsers.application
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\RegUsers.exe.config
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\RegUsers.exe.manifest
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\RegUsers.application
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\RegUsers.exe
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\RegUsers.pdb
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\EntityFramework.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\MaterialDesignColors.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\Microsoft.Data.Sqlite.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\SQLitePCLRaw.core.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\System.Buffers.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\System.Data.SQLite.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\System.Memory.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\System.Numerics.Vectors.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\EntityFramework.xml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\MaterialDesignColors.pdb
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\Microsoft.Data.Sqlite.xml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\System.Buffers.xml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\System.Data.SQLite.xml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\System.Memory.xml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\System.Numerics.Vectors.xml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\AuthWindow.g.cs
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\MainWindow.g.cs
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\UserPageWindow.g.cs
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\App.g.cs
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers_Content.g.cs
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers_MarkupCompile.cache
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers_MarkupCompile.lref
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\App.baml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\AuthWindow.baml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\MainWindow.baml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\UserPageWindow.baml
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers.g.resources
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers.Properties.Resources.resources
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers.csproj.GenerateResource.cache
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers.csproj.CoreCompileInputs.cache
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers.exe.manifest
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers.application
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers.csproj.CopyComplete
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers.exe
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers.pdb
+C:\Users\Huawei\Documents\GitHub\RegUsers\RegUsers\obj\Release\RegUsers.csproj.AssemblyReference.cache
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\RegUsers.exe.config
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\RegUsers.exe.manifest
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\RegUsers.application
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\RegUsers.exe
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\RegUsers.pdb
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\EntityFramework.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\MaterialDesignColors.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\Microsoft.Data.Sqlite.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\SQLitePCLRaw.core.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\System.Buffers.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\System.Data.SQLite.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\System.Memory.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\System.Numerics.Vectors.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\EntityFramework.xml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\MaterialDesignColors.pdb
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\Microsoft.Data.Sqlite.xml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\System.Buffers.xml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\System.Data.SQLite.xml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\System.Memory.xml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\System.Numerics.Vectors.xml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers.csproj.AssemblyReference.cache
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\AuthWindow.g.cs
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\MainWindow.g.cs
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\UserPageWindow.g.cs
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\App.g.cs
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers_Content.g.cs
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers_MarkupCompile.cache
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers_MarkupCompile.lref
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\App.baml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\AuthWindow.baml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\MainWindow.baml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\UserPageWindow.baml
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers.g.resources
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers.Properties.Resources.resources
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers.csproj.GenerateResource.cache
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers.csproj.CoreCompileInputs.cache
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers.exe.manifest
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers.application
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers.csproj.CopyComplete
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers.exe
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\obj\Release\RegUsers.pdb
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\Newtonsoft.Json.dll
+C:\Users\Huawei\Desktop\RegUsers\RegUsers\bin\Release\Newtonsoft.Json.xml
