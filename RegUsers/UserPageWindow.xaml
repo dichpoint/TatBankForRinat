@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
-        Title="" Height="450" Width="650" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+        Title="" Height="450" Width="650" WindowStartupLocation="CenterScreen">
 
     <Grid Background="Green" Margin="0">
 
@@ -16,15 +16,16 @@
                 <DropShadowEffect BlurRadius="30" Color="LightGray" ShadowDepth="0"></DropShadowEffect>
             </Border.Effect>
             <StackPanel>
-                <TextBlock HorizontalAlignment="Center" Text="Кабинет сотрудника" FontSize="30" FontWeight="Bold" Margin="0 0 0 10" />
+                <TextBlock HorizontalAlignment="Center" Text="Кабинет пользователя" FontSize="30" FontWeight="Bold" Margin="0 0 0 0"></TextBlock>
 
-                <DataGrid x:Name="ToDoList" FontSize="16" FontWeight="Bold" Margin="0" SelectionChanged="ToDoList_SelectionChanged" AutoGenerateColumns="False">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn Binding="{Binding Path = Text}" IsReadOnly="False" Header="Информация" Width="225" />
-                        <DataGridCheckBoxColumn Binding="{Binding Path = IsDone, UpdateSourceTrigger = PropertyChanged}" IsReadOnly="False" Header=" Статус" Width="100" />
-                        <DataGridTextColumn Binding="{Binding Path = CreationDate}" IsReadOnly="True" Header="Дата заявки"  Width="*" />
-                    </DataGrid.Columns>
-                </DataGrid>
+                <Grid Margin="0 20 0 0">
+                    <Button Content="Снять" HorizontalAlignment="Left" Background="Blue" Click="Button_Withdraw_Money_Click"></Button>
+                    <TextBox x:Name="textBoxCash" HorizontalAlignment="Center" materialDesign:HintAssist.Hint=" Введите сумму" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="119,0,117.2,-0.2" Width="327" ></TextBox>
+                    <Button Content="Внести" HorizontalAlignment="Right" Background="Blue" Click="Button_Deposit_Money_Click"></Button>
+                </Grid>
+
+                <Button Content="Узнать баланс" Margin="0 20 0 0" Background="Blue" Click="Button_Balance_Click"></Button>
+                <Button HorizontalAlignment="Center" Content="Выход из системы" Margin="0 0 0 -10" Foreground="Red" Click="Button_WinAuth_Click" Style="{StaticResource MaterialDesignFlatButton}"></Button>
 
             </StackPanel>
         </Border>

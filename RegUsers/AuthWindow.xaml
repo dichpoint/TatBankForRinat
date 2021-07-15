@@ -16,7 +16,7 @@
             <StackPanel>
                 <TextBlock HorizontalAlignment="Center" Text="Авторизация" FontSize="30" FontWeight="Bold" Margin="0 0 0 0"></TextBlock>
                 
-                <TextBox x:Name="textBoxLogin" materialDesign:HintAssist.Hint="Введите логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}"></TextBox>
+                <TextBox x:Name="textBoxLogin" materialDesign:HintAssist.Hint="Введите номер счета" Style="{StaticResource MaterialDesignFloatingHintTextBox}"></TextBox>
                 <PasswordBox x:Name="passBox" materialDesign:HintAssist.Hint="Введите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"></PasswordBox>
                 <Button Content="Войти" Margin="0 20 0 0" Background="Blue" Click="Button_Auth_Click"></Button>
                 <Button HorizontalAlignment="Center" Content="Регистрация" Margin="0 0 0 -10" Foreground="Blue" Click="Button_Reg_Click" Style="{StaticResource MaterialDesignFlatButton}"></Button>

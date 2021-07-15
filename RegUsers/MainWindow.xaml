@@ -18,7 +18,7 @@
 
                 <Button HorizontalAlignment="Center" Content="Войти" Margin="0 -3 0 5" Foreground="Blue" Click="Button_WinAuth_Click" Style="{StaticResource MaterialDesignFlatButton}"></Button>
 
-                <TextBox x:Name="textBoxLogin" materialDesign:HintAssist.Hint="Введите логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}"></TextBox>
+                <TextBox x:Name="textBoxLogin" materialDesign:HintAssist.Hint="Введите номер карты" Style="{StaticResource MaterialDesignFloatingHintTextBox}"></TextBox>
                 <PasswordBox x:Name="passBox" materialDesign:HintAssist.Hint="Введите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"></PasswordBox>
                 <PasswordBox x:Name="passBox_2" materialDesign:HintAssist.Hint="Повторите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"></PasswordBox>
                 <TextBox x:Name="textBoxEmail" materialDesign:HintAssist.Hint="Введите Email" Style="{StaticResource MaterialDesignFloatingHintTextBox}"></TextBox>

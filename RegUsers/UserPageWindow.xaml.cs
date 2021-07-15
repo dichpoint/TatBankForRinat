@@ -1,8 +1,4 @@
 ﻿using System.Windows;
-using System.ComponentModel;
-using RegUsers.Models;
-using RegUsers.Services;
-using System;
 
 namespace RegUsers
 {
@@ -13,51 +9,90 @@ namespace RegUsers
     // Кабинет пользователя
     public partial class UserPageWindow : Window
     {
-        private readonly string PATH = $"{Environment.CurrentDirectory}\\ToDoDataList.json";
-        private BindingList<ToDoModel> _toDoDataList;
-        private FileIOService _fileIOService;
+        string login = null;
+        //string pass = null;
+        //string email = null;
+        int amount = 0;
+
+        private const int ZERO = 0;
 
         // конструктор
-        public UserPageWindow()
+        public UserPageWindow(string login, int amount)
         {
             InitializeComponent();
+            this.login = login;
+            //this.pass = pass;
+            //this.email = email;
+            this.amount = amount;
         }
 
-        private void ToDoList_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        // обработчик события ("Выйти из системы")
+        private void Button_WinAuth_Click(object sender, RoutedEventArgs e)
         {
-
+            AuthWindow authWindow = new AuthWindow();
+            authWindow.Show();
+            Close();
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        // обрабточик события ("Узнать баланс")
+        private void Button_Balance_Click(object sender, RoutedEventArgs e)
         {
-            _fileIOService = new FileIOService(PATH);
+            MessageBox.Show($"Баланс счета {login} = {amount} рублей");
+        }
 
-            try
+        // обрабточик события ("Снять")
+        private void Button_Withdraw_Money_Click(object sender, RoutedEventArgs e)
+        {
+            string badCash = textBoxCash.Text.Trim().ToLower();
+            int cash = 0;
+            bool r = int.TryParse(badCash, out cash);
+
+            if (r == false)
             {
-                _toDoDataList = _fileIOService.LoadData();
+                MessageBox.Show("Введенное значение не является числом!");
             }
-            catch (Exception ex)
+            else if (cash > amount)
             {
-                MessageBox.Show(ex.Message);
-                Close();
+                MessageBox.Show("Недостаточно средств на счете для совершения данной операциии!");
             }
-
-            ToDoList.ItemsSource = _toDoDataList;
-            _toDoDataList.ListChanged += _toDoDataList_ListChanged;
-        }
-
-        private void _toDoDataList_ListChanged(object sender, ListChangedEventArgs e)
-        {
-            if (e.ListChangedType == ListChangedType.ItemAdded || e.ListChangedType == ListChangedType.ItemDeleted || e.ListChangedType == ListChangedType.ItemChanged)
+            else if (cash <= ZERO)
             {
-                try
+                MessageBox.Show("Введенное число должно быть положительным!");
+            }
+            else
+            {
+                amount -= cash;
+                using (AppContext db = new AppContext())
                 {
-                    _fileIOService.SaveData(sender);
+                    db.Database.ExecuteSqlCommand($"update Users set amount = {amount} WHERE login = '{login}'");
+                    db.SaveChanges();
                 }
-                catch (Exception ex)
+            }
+        }
+
+        // обрабточик события ("Внести")
+        private void Button_Deposit_Money_Click(object sender, RoutedEventArgs e)
+        {
+            string badCash = textBoxCash.Text.Trim().ToLower();
+            int cash = 0;
+            bool r = int.TryParse(badCash, out cash);
+
+            // проверка введенного значения
+            if (!r)
+            {
+                MessageBox.Show("Введенное значение не является числом!");
+            }
+            else if (cash <= ZERO)
+            {
+                MessageBox.Show("Введенное число должно быть положительным!");
+            }
+            else
+            {
+                amount += cash;
+                using (AppContext db = new AppContext())
                 {
-                    MessageBox.Show(ex.Message);
-                    Close();
+                    db.Database.ExecuteSqlCommand($"update Users set amount = {amount} WHERE login = '{login}'");
+                    db.SaveChanges();
                 }
             }
         }

@@ -144,8 +144,6 @@
     <Compile Include="AuthWindow.xaml.cs">
       <DependentUpon>AuthWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\ToDoModel.cs" />
-    <Compile Include="Services\FileIOService.cs" />
     <Compile Include="User.cs" />
     <Compile Include="UserPageWindow.xaml.cs">
       <DependentUpon>UserPageWindow.xaml</DependentUpon>

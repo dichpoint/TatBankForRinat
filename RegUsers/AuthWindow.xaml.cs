@@ -26,7 +26,7 @@ namespace RegUsers
         {
             // получение полей
             string login = textBoxLogin.Text.Trim().ToLower();
-            string pass = passBox.Password.Trim();
+            string pass = passBox.Password;
 
             int check = START_CHECK_NUMBER;
 
@@ -44,8 +44,13 @@ namespace RegUsers
                 {
                     MessageBox.Show("Авторизация прошла успешно!");
 
+                    using (AppContext db = new AppContext())
+                    {
+                        authUser = db.Users.Where(b => (b.Login == login)).FirstOrDefault(); // проверка логина в БД
+                    }
+
                     // регистрация прошла успешно, => переходим в авторизацию
-                    UserPageWindow userPageWindow = new UserPageWindow();
+                    UserPageWindow userPageWindow = new UserPageWindow(authUser.Login, authUser.Amount);
                     userPageWindow.Show();
                     Close();
                 }
@@ -67,9 +72,9 @@ namespace RegUsers
         }
 
         private const int EMPTY_LENGTH = 0;
-        private const int MIN_LENGTH_LOGIN = 5;
+        private const int LENGTH_LOGIN = 16;
         private const int MIN_LENGTH_PASS = 7;
-        private const int MAX_LENGTH = 30;
+        private const int MAX_LENGTH_PASS = 30;
 
         // ф-ции для проверки логина и пароля
         private bool CheckLogin(string login)
@@ -81,33 +86,21 @@ namespace RegUsers
                 textBoxLogin.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#ea9999");
                 return false;
             }
-            else if (login.Length < MIN_LENGTH_LOGIN)
+            else if (login.Length != LENGTH_LOGIN)
             {
-                textBoxLogin.ToolTip = "Логин должен содержать не меньше 5 символов!";
-                textBoxLogin.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#ea9999");
-                return false;
-            }
-            else if (login.Length > MAX_LENGTH)
-            {
-                textBoxLogin.ToolTip = "Логин должен содержать не больше 30 символов!";
+                textBoxLogin.ToolTip = "Счет должен содержать должен состоять из 16 символов!";
                 textBoxLogin.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#ea9999");
                 return false;
             }
             else if (login.Contains(' '))
             {
-                textBoxLogin.ToolTip = "Логин не должен содержать пробелов!";
+                textBoxLogin.ToolTip = "Счет не должен содержать пробелов!";
                 textBoxLogin.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#ea9999");
                 return false;
             }
-            else if (Regex.IsMatch(login, "[а-я]"))
+            else if ((Regex.IsMatch(login, "[A-Za-z]")))
             {
-                textBoxLogin.ToolTip = "Логин должен состоять из букв только латинского алфавита!";
-                textBoxLogin.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#ea9999");
-                return false;
-            }
-            else if (!(Regex.IsMatch(login, "[A-Za-z]")))
-            {
-                textBoxLogin.ToolTip = "Логин должен содержать хотя бы одну букву!";
+                textBoxLogin.ToolTip = "Счет должен состоять только из цифр!";
                 textBoxLogin.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#ea9999");
                 return false;
             }
@@ -133,7 +126,7 @@ namespace RegUsers
                 passBox.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#ea9999");
                 return false;
             }
-            else if (pass.Length > MAX_LENGTH)
+            else if (pass.Length > MAX_LENGTH_PASS)
             {
                 passBox.ToolTip = "Пароль должен содержать не больше 30 символов!";
                 passBox.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#ea9999");
