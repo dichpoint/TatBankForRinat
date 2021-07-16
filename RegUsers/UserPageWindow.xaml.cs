@@ -10,8 +10,6 @@ namespace RegUsers
     public partial class UserPageWindow : Window
     {
         string login = null;
-        //string pass = null;
-        //string email = null;
         int amount = 0;
 
         private const int ZERO = 0;
@@ -21,8 +19,6 @@ namespace RegUsers
         {
             InitializeComponent();
             this.login = login;
-            //this.pass = pass;
-            //this.email = email;
             this.amount = amount;
         }
 
@@ -67,6 +63,7 @@ namespace RegUsers
                     db.Database.ExecuteSqlCommand($"update Users set amount = {amount} WHERE login = '{login}'");
                     db.SaveChanges();
                 }
+                MessageBox.Show("Операция прошла успешно!");
             }
         }
 
@@ -94,6 +91,7 @@ namespace RegUsers
                     db.Database.ExecuteSqlCommand($"update Users set amount = {amount} WHERE login = '{login}'");
                     db.SaveChanges();
                 }
+                MessageBox.Show("Операция прошла успешно!");
             }
         }
     }
